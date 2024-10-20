@@ -1,4 +1,4 @@
-require_relative "book_ticket"
+require_relative "cinema"
 
-book_ticket = Book_ticket.new
-book_ticket.main_list
+cinema = Cinema.new
+cinema.run
